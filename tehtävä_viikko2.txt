@@ -1,0 +1,11 @@
+
+Viikkotehtävä 2
+
+Laadi lyhyehkö toimiva suomenkielinen HTML-sivu, jossa on linkit UEF:n pääsivulle, 
+Humanistisen osaston sivulle ja kieliteknologian "Opinnot"-sivulle WebOodissa. 
+(Vinkki: käytä oikeanpuolista hiiren näppäinta ja 
+"Open Link in New Tab", jotta saat selville Oodi-sivun tarkan osoitteen.) 
+Lisäksi sivun pitää sisältää vähintään yksi kuva ja yksi video- tai äänitiedosto.
+
+Voit joko kopioida sivun koodin vastauskenttään tai lähettää erillisen tekstitiedoston. 
+Palauta myös muut sisällöt (kuva- ja video/ääni-tiedostot) Moodlen kautta.
