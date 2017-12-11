@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<title> Paulan nettisivut</title>
+</head>
+<body>
+<table border="1">
+<caption> Tulossa olevia kursseja </caption>
+<tr>
+<th> Paikka </th>
+<th> Kurssin aihe </th>
+</tr>
+<tr>
+<td> Helsinki </td>
+<td> Ompelun perusteet </td>
+ </tr>
+ <tr>
+<td> Turku </td>
+<td> Saumuroinnin alkeet </td>
+ </tr>
+ <tr>
+<td> Tampere </td>
+<td> Kaavoituksen perusteet </td>
+ </tr>
+</table>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="get">
+    <td>Nimi</td>
+    <td><input type="text" id="n"></td>
+    <td>Sähköposti</td>
+    <td><input type="email" id="em"></td>
+  
+<label for="sijainti">Valitse sijanti:</label>
+ <select id="sijainti" name="sijainti">
+   <option>Helsinki</option>
+   <option>Turku</option>
+   <option>Tampere</option>
+ </select>
+
+ <label for="sukupuoli">Valitse sukupuoli:</label>
+ <input type="radio" name="sukupuoli" value="m">mies
+ <input type="radio" name="sukupuoli" value="n">nainen
+ 
+ <td>Lisätietoja</td>
+    <td><textarea></textarea></td>
+
+<input type="submit" value="Ilmoittaudu">
+
+</form>
+</body>
+</html>
+
+
+
