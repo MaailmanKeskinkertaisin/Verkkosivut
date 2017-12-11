@@ -24,6 +24,30 @@
 <td> Kaavoituksen perusteet </td>
  </tr>
 </table>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="get">
+<table>
+<tr>
+    <td>Nimi</td>
+    <td><input type="text" id="n"></td>
+  </tr>
+<tr>
+    <td>Sähköposti</td>
+    <td><input type="email" id="em"></td>
+  </tr>
+<label for="sijainti">Valitse sijanti:</label>
+ <select id="sijainti" name="sijainti">
+   <option>Helsinki</option>
+   <option>Turku</option>
+   <option>Tampere</option>
+ </select>
+ <table border="1">
+ <label for="sukupuoli">Valitse sukupuoli:</label>
+ <input type="radio" name="sukupuoli" value="m">mies>
+ <input type="radio" name="sukupuoli" value="n">nainen>
+ </table>
+ 
+ </table>
+</form>
 </body>
 </html>
 
